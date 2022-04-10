@@ -70,3 +70,14 @@ a:focus {
 a:active { /* selected link */
   color:#FFFFFF;
 }
+
+.button { /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #FFBD59;
+  color: #333333; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #AF8340; /* width of the border, type, color */
+  transition: 0.2s opacity;
+} /* Is it possible to make the hover cover different just for buttons/certain buttons? */
