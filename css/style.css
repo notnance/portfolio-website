@@ -6,4 +6,10 @@ Text color (Black): #000000
 2nd text color (Dark Grey): #333333
 */
 
-body {font-family: 'Kanit', sans-serif;}
+body {
+  background-color: #FFF8DC;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
