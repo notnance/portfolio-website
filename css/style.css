@@ -103,3 +103,14 @@ a:active {
   text-transform: uppercase;
   border: 2px solid #AF8340;
 }
+
+.button.email:hover {
+  background-color: #FFBD59;
+  color: #FFFFFF;
+  border: #FFBD59
+}
+
+.button.email:active {
+  opacity: 0.8;
+  text-decoration: none;
+}
