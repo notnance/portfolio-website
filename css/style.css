@@ -80,4 +80,14 @@ a:active { /* selected link */
   border-radius: 3px;
   border-bottom: 2px solid #AF8340; /* width of the border, type, color */
   transition: 0.2s opacity;
-} /* Is it possible to make the hover cover different just for buttons/certain buttons? */
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button:active {
+  opacity: 0.8;
+  text-decoration: none;
+}
