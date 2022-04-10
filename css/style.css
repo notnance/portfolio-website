@@ -67,18 +67,23 @@ a:focus {
   /* Underlining when hovering over a link */
 }
 
-a:active { /* selected link */
-  color:#FFFFFF;
+a:active {
+  /* selected link */
+  color: #FFFFFF;
 }
 
-.button { /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+.button {
+  /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #FFBD59;
-  color: #333333; /* needed to override the default link color */
+  color: #333333;
+  /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #AF8340; /* width of the border, type, color */
+  border-bottom: 2px solid #AF8340;
+  /* width of the border, type, color */
   transition: 0.2s opacity;
 }
 
@@ -90,4 +95,11 @@ a:active { /* selected link */
 .button:active {
   opacity: 0.8;
   text-decoration: none;
+}
+
+.button.email {
+  background-color: transparent;
+  color: #AF8340;
+  text-transform: uppercase;
+  border: 2px solid #AF8340;
 }
