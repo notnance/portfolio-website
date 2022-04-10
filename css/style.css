@@ -49,3 +49,13 @@ h5 {
   font-size:
   font-weight:
 } /* What's a good size calculator and how to figure out scales/etc.? */
+
+a {
+  color: #333333
+  text-decoration: none; /* No underlining */
+}
+
+a:hover {
+  color: #FFBD59
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
