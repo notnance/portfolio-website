@@ -11,7 +11,9 @@ body {
   background-color: #FFF8DC;
   font-family: 'Kanit', sans-serif;
   font-size: 16px;
-  font-weight: 300 line-height: 1.6 color: #000000
+  font-weight: 300;
+  line-height: 1.6;
+  color: #000000;
 }
 
 img {
@@ -44,8 +46,8 @@ h4 {
 }
 
 h5 {
-  font-size:
-    font-weight:
+  font-size: 1.15em;
+  font-weight: 300;
 }
 
 /* What's a good size calculator and how to figure out scales/etc.? */
@@ -57,7 +59,7 @@ a {
 
 a:visited {
   /* visited link, same color for now */
-  color: ##AF8340;
+  color: #AF8340;
 }
 
 a:hover,
