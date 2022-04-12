@@ -9,11 +9,11 @@ Text color (Black): #000000
 */
 
 header {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 body {
-  background-color: #FFF8DC;
+  background-color: #fff8dc;
   font-family: 'Kanit', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -57,39 +57,39 @@ h5 {
 
 /* What's a good size calculator and how to figure out scales/etc.? */
 a {
-  color: #AF8340;
+  color: #af8340;
   text-decoration: none;
   /* No underlining */
 }
 
 a:visited {
   /* visited link, same color for now */
-  color: #AF8340;
+  color: #af8340;
 }
 
 a:hover,
 a:focus {
-  color: #FFBD59;
+  color: #ffbd59;
   text-decoration: underline;
   /* Underlining when hovering over a link */
 }
 
 a:active {
   /* selected link */
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button {
   /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #FFBD59;
+  background-color: #ffbd59;
   color: #333333;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #AF8340;
+  border-bottom: 2px solid #af8340;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
@@ -97,7 +97,7 @@ a:active {
 .button:hover {
   opacity: 0.8;
   text-decoration: none;
-  color: #FFFFFF
+  color: #ffffff
 }
 
 .button:active {
@@ -107,15 +107,15 @@ a:active {
 
 .button.email {
   background-color: transparent;
-  color: #AF8340;
+  color: #af8340;
   text-transform: uppercase;
-  border: 2px solid #AF8340;
+  border: 2px solid #af8340;
 }
 
 .button.email:hover {
-  background-color: #FFBD59;
-  color: #FFFFFF;
-  border: #FFBD59
+  background-color: #ffbd59;
+  color: #ffffff;
+  border: #ffbd59
 }
 
 .button.email:active {
