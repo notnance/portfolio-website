@@ -7,6 +7,11 @@ Alt bg color ("Ivory"): #FFFFF0
 Text color (Black): #000000
 2nd text color (Dark Grey): #333333
 */
+
+header {
+  background-color: #FFFFFF;
+}
+
 body {
   background-color: #FFF8DC;
   font-family: 'Kanit', sans-serif;
