@@ -10,6 +10,7 @@ Text color (Black): #000000
 
 header {
   background-color: #ffffff;
+  padding: 10px;
 }
 
 body {
