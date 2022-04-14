@@ -12,7 +12,7 @@ header {
   background-color: #fffff0;
   padding: 10px;
   margin: 10px;
-  border-bottom: 3px solid #333333;
+  border-bottom: 3px solid #ffffff;
 }
 
 body {
@@ -128,5 +128,5 @@ a:active {
 
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 0 15px
 }
