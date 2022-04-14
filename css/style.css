@@ -136,5 +136,6 @@ a:active {
 }
 
 #work {
-  padding-bottom: 25px; border-bottom: 1px solid #af8340;
-}
+  padding-bottom: 25px; border-bottom: 2px solid #af8340;
+} /* I wonder if the length of the border across the screen can be adjusted or if it has to be an hr element */
+/* I guess my real q right here is how I can make the border bottom adhere to the width of its parent (?) */
