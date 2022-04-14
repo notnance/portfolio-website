@@ -66,8 +66,7 @@ a {
 }
 
 a:visited {
-  /* visited link, same color for now */
-  color: #af8340;
+  color: #ffffff;
 }
 
 a:hover,
