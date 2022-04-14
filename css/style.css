@@ -7,7 +7,6 @@ Alt bg color ("Ivory"): #fffff0
 Text color (Black): #000000
 2nd text color (Dark Grey): #333333
 */
-
 header {
   background-color: #fffff0;
   text-align: center;
@@ -15,9 +14,11 @@ header {
   margin: 10px;
   border-bottom: 3px solid #fffff0;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
--moz-box-shadow:    0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-box-shadow:         0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+
 }
+
 /* why doesn't box sizing go before the header? */
 * {
   box-sizing: border-box;
@@ -143,21 +144,23 @@ a:active {
   max-width: 250px;
 }
 
-nav > ul {
+nav>ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav > ul > li {
+nav>ul>li {
   display: inline-block;
-
+  width: 100%
 }
+
 /* Are these 3 supposed to be separated? ADD states once I find out? */
-nav > ul > li > a {
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffff00; /* test color; the color did nothing */
+  color: #ffff00;
+  /* test color; the color did nothing */
 }
 
 #hero h1 {
@@ -165,11 +168,15 @@ nav > ul > li > a {
 }
 
 #work {
-  padding-bottom: 25px; border-bottom: 2px solid #af8340;
-} /* I wonder if the length of the border across the screen can be adjusted or if it has to be an hr element */
-/* I guess my real q right here is how I can make the border bottom adhere to the width of its parent (?) */
-
-#o {
-  padding-bottom: 25px; border-bottom: 2px solid #af8340;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #af8340;
 }
+
+/* I wonder if the length of the border across the screen can be adjusted or if it has to be an hr element */
+/* I guess my real q right here is how I can make the border bottom adhere to the width of its parent (?) */
+#o {
+  padding-bottom: 25px;
+  border-bottom: 2px solid #af8340;
+}
+
 /* WAIITT THIS ONE ADHERES TO THE PARENT WIDTH WHAT */
