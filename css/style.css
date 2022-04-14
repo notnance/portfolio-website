@@ -16,7 +16,7 @@ header {
   -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-
+  position: relative;
 }
 
 /* why doesn't box sizing go before the header? */
@@ -180,3 +180,7 @@ nav>ul>li>a {
 }
 
 /* WAIITT THIS ONE ADHERES TO THE PARENT WIDTH WHAT */
+
+#linkedin {
+  padding-top: 25px;
+}
