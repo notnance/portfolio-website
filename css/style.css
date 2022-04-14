@@ -144,6 +144,10 @@ a:active {
   max-width: 250px;
 }
 
+.me {
+  max-width: 100px;
+}
+
 nav>ul {
   list-style-type: none;
   padding: 0;
