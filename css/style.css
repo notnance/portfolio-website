@@ -148,6 +148,13 @@ nav > ul {
 nav > ul > li {
   display: inline-block;
 }
+/* Are these 3 supposed to be separated? */
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffff00; /* test color; the color did nothing */
+}
 
 #hero h1 {
   text-align: center;
