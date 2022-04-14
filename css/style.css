@@ -136,8 +136,12 @@ a:active {
 }
 
 .logo {
-  max-width: 250px
+  max-width: 250px;
 } /* I can't tell if I did this right, like is the logo class correct in line 26 in index file */
+
+#hero {
+  text-align: center;
+}
 
 #work {
   padding-bottom: 25px; border-bottom: 2px solid #af8340;
