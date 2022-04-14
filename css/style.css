@@ -14,6 +14,10 @@ header {
   margin: 10px;
   border-bottom: 3px solid #ffffff;
 }
+/* why doesn't box sizing go before the header? */
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #fff8dc;
