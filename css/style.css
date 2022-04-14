@@ -134,3 +134,7 @@ a:active {
 .container {
   padding: 0 20px
 }
+
+#work {
+  padding-bottom: 25px; border-bottom: 1px solid #af8340;
+}
