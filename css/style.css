@@ -147,8 +147,9 @@ nav > ul {
 
 nav > ul > li {
   display: inline-block;
+
 }
-/* Are these 3 supposed to be separated? */
+/* Are these 3 supposed to be separated? ADD states once I find out? */
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
