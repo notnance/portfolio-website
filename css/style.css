@@ -136,7 +136,7 @@ a:active {
 }
 
 .logo {
-  
+  max-width: 250px
 }
 
 #work {
