@@ -10,6 +10,7 @@ Text color (Black): #000000
 
 header {
   background-color: #fffff0;
+  text-align: center;
   padding: 10px;
   margin: 10px;
   border-bottom: 3px solid #af8340;
@@ -139,7 +140,7 @@ a:active {
   max-width: 250px;
 }
 
-#hero {
+#hero h1 {
   text-align: center;
 }
 
