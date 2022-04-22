@@ -170,7 +170,7 @@ nav>ul>li>a {
   /* test color; the color did nothing: actually it did do something i just couldn't see it so revert to same color */
 }
 
-#hero h1 {
+#hero h1, #hero p {
   text-align: center;
 }
 
