@@ -19,7 +19,6 @@ header {
   position: relative;
 }
 
-/* why doesn't box sizing go before the header? */
 * {
   box-sizing: border-box;
 }
