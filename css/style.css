@@ -136,6 +136,9 @@ a:active {
 }
 
 /* Layout styling */
+.center {
+  text-align: center
+}
 .container {
   padding: 0 20px
 }
