@@ -166,8 +166,8 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #ffff00;
-  /* test color; the color did nothing */
+  color: ##af8340;
+  /* test color; the color did nothing: actually it did do something i just couldn't see it so revert to same color */
 }
 
 #hero h1 {
