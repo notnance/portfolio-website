@@ -161,7 +161,7 @@ nav>ul>li {
   width: 100%;
 }
 
-/* Are these 3 supposed to be separated? ADD states once I find out? */
+/*  ADD states  */
 nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
