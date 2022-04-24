@@ -213,6 +213,9 @@ Large devices (1024px or larger)
 nav {
   font-size: 25px;
 }
+main {
+  font-size: 30px;
+}
 p{
   font-size: 30px;
 }
