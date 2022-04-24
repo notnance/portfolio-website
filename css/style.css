@@ -210,7 +210,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
+/* How can I change the font to be bigger without messing with the default screen? */
 }
 
 /* ==============================
