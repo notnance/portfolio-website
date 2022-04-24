@@ -157,8 +157,7 @@ nav>ul {
 }
 
 nav>ul>li {
-  display: inline-block; /* Why didn't this make my links sit on one line together? */
-  width: 100%;
+  display: inline-block;
 }
 
 nav>ul>li>a {
