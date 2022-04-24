@@ -210,28 +210,12 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-nav {
-  font-size: 25px;
-}
-main {
-  font-size: 30px;
-}
-p{
-  font-size: 30px;
-}
+
 }
 
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
-  nav {
-    font-size: 30px;
-  }
-  main {
-    font-size: 35px;
-  }
-  p{
-    font-size: 35px;
-  }
+
 }
