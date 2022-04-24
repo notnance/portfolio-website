@@ -217,7 +217,7 @@ Medium devices (640px and larger)
 
   [class*="col-"]{
     float:left;
-    padding: 10px;
+    padding: 0 10px 0 0;
   }
 
   .row::after{ /* this didn't fix anything for me? i can't tell if there's a problem */
