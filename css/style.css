@@ -195,8 +195,7 @@ Medium devices (640px and larger)
   }
   nav { /* Not important, but what if I want it to sit immediately to the right of the logo? not at the far right of the screen? */
     width: auto;
-    float: right;
-    margin-top: 5px;
+    float: right; /* Actually, how would I make it sit at the bottom of the nav bar? */
   }
 }
 
