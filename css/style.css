@@ -19,7 +19,7 @@ header {
   position: relative;
 }
 
-* {
+* { /* rmb universal selector */
   box-sizing: border-box;
 }
 
