@@ -172,6 +172,10 @@ nav>ul>li>a {
   text-align: center;
 }
 
+#hero span {
+  display: block;
+}
+
 #otitle {
   text-align: center;
 }
