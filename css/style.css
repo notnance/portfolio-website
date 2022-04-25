@@ -90,6 +90,14 @@ a:active {
   color: #ffffff;
 }
 
+.shadow {
+  animation: 4s color-change infinite alternate linear;
+}
+
+.cloud-top {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
 .button {
   /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
   display: inline-block;
@@ -205,6 +213,17 @@ nav>ul>li>a {
 
 #linkedin {
   padding-top: 25px;
+}
+
+@keyframes color-change {
+  0% {fill: #ebebeb;}
+  50% {fill: #dbdbdb;}
+  100% {fill: #cbcbcb;}
+}
+
+@keyframes cloud-move{
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
 }
 
 /* ==============================
