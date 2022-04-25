@@ -258,7 +258,7 @@ Large devices (1024px or larger)
     padding: 0 10px 0 0;
   }
 
-  .row::after{ /* this didn't fix anything for me either? */
+  .row::after{ /* this didn't fix anything either? */
     content: "";
     clear: both;
     display: table;
