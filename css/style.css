@@ -170,6 +170,8 @@ nav>ul>li>a {
 
 #hero {
   border-bottom: 1px solid #333333;/* Is it possible to make just the border width smaller? */
+  background-color: #fffff0;
+  padding: 20px 0;
 }
 
 #hero h1, #hero p {
@@ -240,6 +242,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
 /* How can I change the font to be bigger without messing with the default screen? Unless this is the "default" screen?? (how I usually see the site in my chrome browser) */
 }
 
