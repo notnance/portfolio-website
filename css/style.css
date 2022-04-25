@@ -190,9 +190,13 @@ nav>ul>li>a {
   text-align: center;
 }
 
-#work, #project1, #o, #about {
+#work, #o, #about {
   padding-bottom: 25px;
   border-bottom: 2px solid #af8340;
+}
+
+#project1 {
+  border-bottom: 2px solid #af8340; /* Why does it do the weird half line at the top?? */
 }
 
 #project2 {
