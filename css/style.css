@@ -252,6 +252,23 @@ Large devices (1024px or larger)
   .col-lg-7 {
     width: 58.33%;
   }
+
+  [class*="col-"]{
+    float:left;
+    padding: 0 10px 0 0;
+  }
+
+  .row::after{ /* this didn't fix anything for me either? */
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 /* How can I change the font to be bigger without messing with the default screen? Unless this is the "default" screen?? (how I usually see the site in my chrome browser) */
 }
 
