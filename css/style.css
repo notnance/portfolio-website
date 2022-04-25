@@ -168,6 +168,10 @@ nav>ul>li>a {
   /* test color; the color did nothing: actually it did do something i just couldn't see it so revert to same color */
 }
 
+#hero {
+  border-bottom: 1px solid #333333;/* Is it possible to make just the border width smaller? */
+}
+
 #hero h1, #hero p {
   text-align: center;
 }
