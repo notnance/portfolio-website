@@ -102,7 +102,7 @@ a:active {
   border-radius: 3px;
   border-bottom: 2px solid #af8340;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: 0.2s opacity; /* I don't think it added any particular transition :( */
 }
 
 .button:hover {
