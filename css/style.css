@@ -180,6 +180,8 @@ nav>ul>li>a {
   display: block;
 }
 
+#about-page h3 {margin-top: 0;} /* Why'd it only move "Tools I Use?" */
+
 #otitle {
   text-align: center;
 }
