@@ -204,7 +204,8 @@ nav>ul>li>a {
 }
 
 #project1 {
-  border-bottom: 2px solid #af8340; /* Why does it do the weird half line at the top?? */
+  border-bottom: 2px solid #af8340;
+  padding: 0 0 25px 0;
 }
 
 #project2 {
