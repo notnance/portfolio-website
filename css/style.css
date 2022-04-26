@@ -181,7 +181,7 @@ nav>ul>li>a {
   padding: 20px 0;
 }
 
-#hero h1, #hero p {
+#hero h1, #hero p, #watergate {
   text-align: center;
 }
 
@@ -198,11 +198,7 @@ nav>ul>li>a {
   margin-bottom: 0;
 }
 
-#watergate {
-  text-align: center;
-}
-
-#work, #o, #about, #my-story {
+#work, #o, #about, #my-story, #animation {
   padding-bottom: 25px;
   border-bottom: 2px solid #af8340;
 }
