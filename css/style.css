@@ -249,7 +249,7 @@ Medium devices (640px and larger)
     font-size: 20px;
   }
 
-  .col-md-6{ /* Where did that half line come from above "Health App - Olive"? */
+  .col-md-6{
     width: 50%;
   }
 
