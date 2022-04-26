@@ -207,6 +207,13 @@ nav>ul>li>a {
   padding: 25px 0 0 0;
 }
 
+#animation span {
+  display: block;
+  margin-top: 50px;
+  font-size: 12px;
+}
+/* Q: why is there so much space under; tried Inspecting but check it out more */
+
 #cloud-top, #cloud-bottom {
   animation: 30s cloud-move infinite alternate-reverse linear;
 }
