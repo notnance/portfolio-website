@@ -194,6 +194,10 @@ nav>ul>li>a {
   margin-bottom: 0;
   } /* Why'd it only move "Tools I Use?" */
 
+#skills {
+  margin-bottom: 0;
+}
+
 #otitle {
   text-align: center;
 }
