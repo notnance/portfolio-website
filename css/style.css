@@ -162,7 +162,7 @@ a:active {
 }
 
 .navtoggle li .icon {
-  position: absolute;/* Is it looking weird bc Im having problems w/ parent container? */
+  position: absolute;
   padding-right: 0;
   top: 2px;
   font-size: 20px;
