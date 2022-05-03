@@ -153,6 +153,21 @@ a:active {
   max-width: 100px;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;/* Is it looking weird bc Im having problems w/ parent container? */
+  padding-right: 0;
+  top: 2px;
+  font-size: 20px;
+}
+
 nav>ul {
   list-style-type: none;
   padding: 50px 0 0 0;
@@ -308,10 +323,22 @@ Medium devices (640px and larger)
     /* Actually, how would I make it sit at the bottom of the nav bar? Just add top padding? */
   }
 
+  nav > ul {
+    margin: 1em 0;
+  }
+
   nav>ul>li {
     display: inline-block;
   }
-  
+
+  .navtoggle li:not(:last-child) { /* Why's it look weird T_T */
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child  /* Good, this fixed the issue of the menu icon appearing in this size and up */
+    display: none;
+  }
+
   p {
     font-size: 20px;
   }
