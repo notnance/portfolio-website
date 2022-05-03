@@ -158,10 +158,6 @@ nav>ul {
   padding: 50px 0 0 0;
 }
 
-nav>ul>li {
-  display: inline-block;
-}
-
 nav>ul>li>a {
   padding: 15px;
   text-transform: uppercase;
@@ -312,6 +308,10 @@ Medium devices (640px and larger)
     /* Actually, how would I make it sit at the bottom of the nav bar? Just add top padding? */
   }
 
+  nav>ul>li {
+    display: inline-block;
+  }
+  
   p {
     font-size: 20px;
   }
