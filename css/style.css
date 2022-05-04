@@ -156,21 +156,32 @@ a:active {
 .navtoggle li:not(:last-child) {
   display: none;
 }
-
+/* Don't forget to add styling (e.g., padding, color) to responsive section/selectors */
 .navtoggle, .navtoggle.responsive {
   position: relative;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba (255, 127, 80, 0.5);
 }
 
 .navtoggle li .icon {
   position: absolute;
   padding-right: 0;
+  right: 0;
   top: 2px;
   font-size: 20px;
 }
 
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 nav>ul {
   list-style-type: none;
-  padding: 50px 0 0 0;
+  padding: 0 0 0 0;
 }
 
 nav>ul>li>a {
@@ -325,17 +336,18 @@ Medium devices (640px and larger)
 
   nav > ul {
     margin: 1em 0;
+    padding: 50px 0 0 0;
   }
 
   nav>ul>li {
     display: inline-block;
   }
 
-  .navtoggle li:not(:last-child) { /* Why's it look weird T_T */
+  .navtoggle li:not(:last-child) {
     display: inline-block;
   }
 
-  .navtoggle li:last-child  /* Good, this fixed the issue of the menu icon appearing in this size and up */
+  .navtoggle li:last-child {  /* Good, this fixed the issue of the menu icon appearing in this size and up */
     display: none;
   }
 
@@ -353,7 +365,6 @@ Medium devices (640px and larger)
   }
 
   .row::after {
-    /* this didn't fix anything for me? i can't tell if there's a problem */
     content: "";
     clear: both;
     display: table;
@@ -382,7 +393,7 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
 
-  /* How can I change the font to be bigger without messing with the default screen? Unless this is the "default" screen?? (how I usually see the site in my chrome browser) */
+
 }
 
 /* ==============================
