@@ -153,6 +153,18 @@ a:active {
   max-width: 100px;
 }
 
+/* OLIVE PROJECT PAGE */
+.appleapp, .walmartapp {
+  max-width: 100px;
+  padding: 30px 0 0 0;
+}
+
+.joel, .miya {
+  max-width: 200px;
+  text-align: center; /* Why no center? class? */
+}
+
+/* NAVIGATION */
 .navtoggle li:not(:last-child) {
   display: none;
 }
@@ -220,10 +232,12 @@ nav>ul>li>a {
   border-bottom: 2px solid #af8340;
 }
 
-#project1 {
+#project1, #rival2, #personas, #sitemap, #wireframing, #usertesting, #prototypes {
   border-bottom: 2px solid #af8340;
   padding: 0 0 25px 0;
 }
+
+
 
 #project2 {
   padding: 25px 0 0 0;

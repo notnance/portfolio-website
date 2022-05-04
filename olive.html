@@ -23,19 +23,19 @@
     <!-- For the navigation -->
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
-      <picture>
-        <source srcset="img/logo_1x.png" media="(max-width:767px)">
-        <img class="logo" src="img/logo_2x.png" alt="Logo">
-      </picture>
-      <nav>
-        <ul class="navigation">
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="olive.html#connect" onclick="menuToggle()">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
-    </div>
+        <picture>
+          <source srcset="img/logo_1x.png" media="(max-width:767px)">
+          <img class="logo" src="img/logo_2x.png" alt="Logo">
+        </picture>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="olive.html#connect" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
   <main>
@@ -75,38 +75,54 @@
               health tools. </p>
             <!-- how to include quotes here as like a "visual", but it's still text -->
             <p> Based on interviews done, potential users are looking for convenient and accurate statistics trackers, variety in categories and topics to organize and learn about, and more detailed and customizable medication tools. </p>
-            <h4> Competition </h4>
-            <div>
-              <!-- columns (2) for competition showcase-->
-              <picture>
-                <source srcset="img/olive/apple_healthapp_icon_1x.jpg" media="(max-width:767px)">
-                <img src="img/olive/apple_healthapp_icon_2x.jpg" alt="Apple Health App Icon">
-              </picture>
-              <h5> Apple Health </h5>
-              <p>
-              <ul>
-                <li> user loyalty from device owners </li>
-                <li> cross-platform connection </li>
-                <li> minimalist visuals and navigation (not necessarily easier) </li>
-              </ul>
-              </p>
-              <picture>
-                <source srcset="img/olive/walmart_wellness_icon_1x.jpg" media="(max-width:767px)">
-                <img src="img/olive/walmart_wellness_icon_2x.jpg" alt="Walmart Wellness Health App Icon">
-              </picture>
-              <h5> Walmart Wellness </h5>
-              <p>
-              <ul>
-                <li> user loyalty from device owners </li>
-                <li> cross-platform connection </li>
-                <li> minimalist visuals and navigation (not necessarily easier) </li>
-              </ul>
-              </p>
+            <div id="competition"> <!--whole Competition block/container -->
+              <div id="rival1"> <!-- Container for both competition rows -->
+                <h4> Competition: </h4>
+                <div class="row"> <!-- 1st Competitor, Row 1 -->
+                  <div class="col-md-6 col-lg-7"> <!-- Row 1 Column 1 -->
+                    <picture>
+                      <source srcset="img/olive/apple_healthapp_icon_1x.jpg" media="(max-width:767px)">
+                      <img class="appleapp" src="img/olive/apple_healthapp_icon_2x.jpg" alt="Apple Health App Icon">
+                    </picture>
+                  </div> <!-- End Column 1 of Row 1 -->
+                  <div class="col-md-6 col-lg-5"> <!-- Row 1 Column 2 -->
+                    <h5> Apple Health </h5>
+                    <p>
+                    <ul>
+                      <li> user loyalty from device owners </li>
+                      <li> cross-platform connection </li>
+                      <li> minimalist visuals and navigation (not necessarily easier) </li>
+                    </ul>
+                    </p>
+                  </div> <!-- end Row 1 Column 2 -->
+                </div> <!--End Row 1 period -->
+                  <div id="rival2">
+                    <!-- Row 2 container -->
+                    <div class="row"> <!-- 2nd competitor, Row 2 -->
+                      <div class="col-md-6 col-lg-7"> <!-- Row 2 Column 1 -->
+                    <picture>
+                      <source srcset="img/olive/walmart_wellness_icon_1x.jpg" media="(max-width:767px)">
+                      <img class="walmartapp" src="img/olive/walmart_wellness_icon_2x.jpg" alt="Walmart Wellness Health App Icon">
+                    </picture>
+                  </div> <!-- end column 1 -->
+                  <div class="col-md-6 col-lg-5"> <!-- Row 2 Column 2 -->
+                    <h5> Walmart Wellness </h5>
+                    <p>
+                    <ul>
+                      <li> user loyalty from device owners </li>
+                      <li> cross-platform connection </li>
+                      <li> minimalist visuals and navigation (not necessarily easier) </li>
+                    </ul>
+                    </p>
+                  </div> <!-- end R2D2 -->
+                  </div>
+                </div>
+              </div>
             </div>
             <!--end competition columns-->
             <!--why was there a little p highlighted in red? is it because we can't use headings in p? -->
           </div> <!-- end research section -->
-          <div>
+          <div id="personas">
             <!-- begin personas section-->
             <h2> Say hello to Joel and Miya </h2>
             <p> Based on my user research, I created 2 personas to portray the target audience and help me keep aligned with their needs and goals as I design. </p>
@@ -114,7 +130,7 @@
               <!--Joel container-->
               <picture>
                 <source srcset="img/olive/joel_persona_1x.jpg" media="(max-width:767px)">
-                <img src="img/olive/joel_persona_2x.jpg" alt="Persona 1: Joel">
+                <img class="joel" src="img/olive/joel_persona_2x.jpg" alt="Persona 1: Joel">
               </picture>
               <p> Joel has been wondering if how he gyms is the right way for his body type. He aims to learn more about different exercises and routines to figure out how to best benefit his health. And he would like to work on his physical health
                 without external pressure! </p>
@@ -129,7 +145,7 @@
               <!--Miya container-->
               <picture>
                 <source srcset="img/olive/miya_persona_1x.jpg" media="(max-width:767px)">
-                <img src="img/olive/Miya_persona_2x.jpg" alt="Persona 2: Miya">
+                <img class="miya" src="img/olive/Miya_persona_2x.jpg" alt="Persona 2: Miya">
               </picture>
               <p> Miya, with her multiple daily medications, would like to stay on top of each one. She’d like to receive reminders on her phone for the times needed to take her medications. She's also concerned about the lack of information the
                 average person has for taking medication. She's looking for more accessible resources and tools to keep people educated on how to safely manage health when medication is a factor. </p>
@@ -140,7 +156,7 @@
               </picture>
             </div>
           </div> <!-- end personas section-->
-          <div>
+          <div id="sitemap">
             <!--begin sitemap section-->
             <h2> Sitemap </h2>
             <picture>
@@ -158,7 +174,7 @@
               helping to complete tasks within Olive more easily. </p>
           </div>
           <!--end sitemap section-->
-          <div>
+          <div id="wireframing">
             <!--begin wireframe section-->
             <div>
               <!--first paragraph container-->
@@ -204,12 +220,12 @@
                 <li> Receive feedback on accessibility options, if expansive enough or too expansive </li>
               </ul>
               </p>
-              <a href="https://coach-courses-us.s3.amazonaws.com/exercises/773/42861/b6cfc7d55d01f9b6afb55e364d3d3b02/4.7-Report-NC-011322.pdf" target="_blank">View Test Plan</a>
+              <a href="https://coach-courses-us.s3.amazonaws.com/exercises/773/42861/b6cfc7d55d01f9b6afb55e364d3d3b02/4.7-Report-NC-011322.pdf" target="_blank" class="button">View Test Plan</a>
               <!--test plan link in button form-->
             </div>
             <!--end 2nd paragraph-->
           </div> <!-- end wireframe section-->
-          <div>
+          <div id="usertesting">
             <!--begin user testing section-->
             <h2> User Testing </h2>
             <picture>
@@ -232,7 +248,7 @@
             </p>
           </div>
           <!--end user testing section-->
-          <div>
+          <div id ="prototypes">
             <!--begin prototype section-->
             <h2> Prototype </h2>
             <h3> Improvements </h3>
