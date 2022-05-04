@@ -310,7 +310,7 @@ nav>ul>li>a {
   }
 
   50% {
-    fill: ##e2b021;
+    fill: #e2b021;
   }
 
   100% {
@@ -389,8 +389,8 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-  body {
-    font-size: ;
+  body, p {
+    font-size: 25px;
   }
 
   .col-lg-5 {
