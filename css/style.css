@@ -7,17 +7,6 @@ Alt bg color ("Ivory"): #fffff0
 Text color (Black): #000000
 2nd text color (Dark Grey): #333333
 */
-header {
-  background-color: #fffff0;
-
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  border-bottom: 3px solid #fffff0;
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-  -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
-  position: relative;
-}
 
 * {
   /* rmb universal selector */
@@ -31,6 +20,23 @@ body {
   font-weight: 300;
   line-height: 1.6;
   color: #000000;
+}
+
+header {
+  background-color: #fffff0;
+
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-bottom: 3px solid #fffff0;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
+  position: fixed;
+  width: 100%;
+}
+
+main {
+  padding-top: 0;
 }
 
 img {
@@ -337,6 +343,7 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
+    position: relative;
     text-align: unset;
     padding: 20px 0 13px;
   }
