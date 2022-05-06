@@ -352,8 +352,8 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
-  body {
-    padding-top: 0px;
+  main {
+    padding-top: 0;
   }
 
   nav {
