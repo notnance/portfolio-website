@@ -357,6 +357,7 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
     /* Actually, how would I make it sit at the bottom of the nav bar? Just add top padding? */
+    padding: 35px 0 0 0;
   }
 
   nav > ul {
