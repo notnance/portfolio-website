@@ -50,6 +50,7 @@ h1 {
   font-weight: 700;
   margin-top: 0;
   /* Fixed the gap above menu bar */
+  padding-top: 25px;
 }
 
 h2 {
@@ -152,6 +153,7 @@ a:active {
 
 .logo {
   max-width: 100px;
+  padding-top: 25px;
 }
 
 .me {
@@ -225,7 +227,7 @@ nav>ul>li>a {
 }
 
 #o h1, #about h1, #animation h1 {
-  padding: 30px 0 0 0;
+  padding: 40px 0 0 0;
 }
 
 #about-page h3 {
