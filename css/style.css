@@ -100,7 +100,6 @@ a:active {
 .button {
   /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
   display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #ffbd59;
   color: #333333;
   /* needed to override the default link color */
