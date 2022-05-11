@@ -160,8 +160,12 @@ a:active {
 
 /* OLIVE PROJECT PAGE */
 .appleapp, .walmartapp {
-  /* How to make image and list closer to ea other? */
   max-width: 100px;
+}
+
+.rivaltitle {
+  margin-bottom: 0;
+  margin-top: 0; 
 }
 
 .joel, .miya {
