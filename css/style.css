@@ -172,7 +172,7 @@ a:active {
 .joel, .miya {
   max-width: 200px;
   text-align: center;
-  /* Why no center? class? */
+  border-radius: 50%;
 }
 
 /* NAVIGATION */
