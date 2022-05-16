@@ -140,6 +140,10 @@ a:active {
   text-decoration: none;
 }
 
+.email.icon {
+  max-width: 40px;
+}
+
 /* Layout styling */
 .center {
   text-align: center;
