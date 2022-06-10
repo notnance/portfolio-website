@@ -160,7 +160,7 @@ a:active {
 }
 
 .me {
-  max-width: 100px;
+  
 }
 
 /* OLIVE PROJECT PAGE */
@@ -174,7 +174,7 @@ a:active {
   margin-top: 0;
 }
 
-.joel, .miya {
+.joel, .miya, .me {
   max-width: 200px;
   text-align: center;
   border-radius: 50%;
