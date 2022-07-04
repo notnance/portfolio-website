@@ -36,6 +36,11 @@ header {
   width: 100%;
 }
 
+footer {
+  background-color: #E6D9DF;
+  padding: 10px 0px 10px 0px;
+}
+
 main {
   padding-top: 100px;
 }
@@ -260,7 +265,11 @@ nav>ul>li>a {
   margin-bottom: 0;
 }
 
-#work, #o, #about, #my-story, #animation {
+#work, #o, #animation, #about {
+padding-bottom: 25px;
+}
+
+#my-story {
   padding-bottom: 25px;
   border-bottom: 2px solid #D5C8BE;
 }
@@ -323,16 +332,10 @@ nav>ul>li>a {
   text-align: center;
 }
 
-#copyright {
+#copyright, #credits {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 10px;
-}
-
-#credits {
-  text-align: center;
-  margin-top: 0;
   font-size: 10px;
 }
 
