@@ -16,4 +16,37 @@
   <link href="favicon.png" rel="shortcut icon"> <!-- hmm not working try again later -->
 </head>
 
+<!-- hullo -->
+
+<body>
+  <!-- For the header -->
+  <header>
+    <!-- For the navigation -->
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <picture>
+          <!-- update this sometime -->
+          <source srcset="img/logo_1x.png" media="(max-width:767px)">
+          <a href="index.html"> <img class="logo" src="img/logo_2x.png" alt="Logo"> </a>
+        </picture>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html"> My Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html#connect" onclick="menuToggle()">Contact</a></li>
+            <!-- now that i know how to jump, add a scroll to top ver -->
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
 <h2> wip! </h2>
+  </main>
+  <!-- For the footer  -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
