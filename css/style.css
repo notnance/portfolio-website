@@ -1,9 +1,11 @@
 /*
 Colors used:
-Primary Color ("Maximum Yellow Red"/mustard): #ffbd59
+Primary Color ("Languid Lavender"): #DDCCDD
 Secondary Color ("Metallic Sunburst"/yellow brown): #af8340
-Background color ("Cornsilk"/beige): #fff8dc;
+Background color (LL palette's lightest color/beige): #EFE6E1;
 Alt bg color ("Ivory"): #fffff0
+   #f2efe8
+   #faf5ef ("Rice")
 Text color (Black): #000000
 2nd text color (Dark Grey): #333333
 */
@@ -13,7 +15,7 @@ Text color (Black): #000000
 }
 
 body {
-  background-color: #fff8dc;
+  background-color: #FAF5EF;
   font-family: 'Kanit', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -22,10 +24,10 @@ body {
 }
 
 header {
-  background-color: #fffff0;
+  background-color: #E6D9DF;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
-  border-bottom: 3px solid #fffff0;
+  border-bottom: 3px solid #E6D9DF;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
   box-shadow: 0px 3px 5px 0px rgba(50, 50, 50, 0.75);
@@ -76,14 +78,14 @@ h5 {
 }
 
 a {
-  color: #af8340;
+  color: #333333;
   text-decoration: none;
   /* No underlining */
 }
 
 a:visited {
   /* visited link, same color for now */
-  color: #af8340;
+  color: #333333;
 }
 
 a:hover,
@@ -101,13 +103,13 @@ a:active {
 .button {
   /* rmb this rule stays at the END of this doc lest it be overwritten by other less specific rules */
   display: inline-block;
-  background-color: #ffbd59;
+  background-color: #D5DBAD;
   color: #333333;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #af8340;
+  border-bottom: 2px solid #D5DBAD;
   /* width of the border, type, color */
   transition: background-color 0.2s, color 0.2s;
 }
@@ -160,7 +162,7 @@ a:active {
 }
 
 .me {
-  
+
 }
 
 /* OLIVE PROJECT PAGE */
@@ -254,11 +256,11 @@ nav>ul>li>a {
 
 #work, #o, #about, #my-story, #animation {
   padding-bottom: 25px;
-  border-bottom: 2px solid #af8340;
+  border-bottom: 2px solid #D5C8BE;
 }
 
 #project1, #rival2, #personas, #sitemap, #wireframing, #usertesting, #prototypes {
-  border-bottom: 2px solid #af8340;
+  border-bottom: 2px solid #D5C8BE;
   padding: 0 0 25px 0;
 }
 
